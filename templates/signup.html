@@ -1,0 +1,30 @@
+<h1>Sign Up</h1>
+
+<div>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input name="name" type="text"/></td>
+        </tr>
+        <tr>
+            <td>Deliery Address:</td>
+            <td><textarea name="address" rows="4" cols="20"></textarea></td>
+        </tr>
+        <tr>
+            <td>Mobile:</td>
+            <td><input name="mobile" type="text"/></td>
+        </tr>
+        <tr>
+            <td>
+                <form action="/register" method="POST">
+                    <input type="submit" value="Register"/>
+                </form>
+            </td>
+            <td>
+                <form action="/login" method="POST">
+                    <input type="submit" value="Cancel"/>
+                </form>
+            </td>
+        </tr>
+    </table>
+</div>
